@@ -1,12 +1,13 @@
 #include <bits/stdc++.h>
 #define faster() ios_base :: sync_with_stdio(0); cin.tie(NULL); cout.tie(NULL);
-#define endl '\n'
+
 using namespace std;
 
 int main()
 {
 	faster();
 	int t;
+	long long test;
 	cin >> t;
 	while(t--)
 	{
@@ -32,4 +33,5 @@ int main()
 		}
 		cout << endl;
 	}
+
 }
